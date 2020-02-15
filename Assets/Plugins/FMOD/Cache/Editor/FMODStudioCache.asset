@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: event:/Gatling Gun
   guid: c6e7d0e266c9ae41be80d880dcb8712c
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
   Path: event:/Bone Melee
   guid: 64be6d787444034e935493a1eb7708f2
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -61,7 +61,7 @@ MonoBehaviour:
   Path: event:/Meteor boss
   guid: 56e32d9aba82b74cb514400c142b22d2
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -84,7 +84,7 @@ MonoBehaviour:
   Path: event:/Boss Battle Music
   guid: 1c6a287c9191ef438d6d5edc106ca6c4
   Banks:
-  - {fileID: -6227965754513293660}
+  - {fileID: -4548539925524685690}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
   Path: event:/Enemy dies
   guid: cf4ae66a7ffa694492b723fd902efc87
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -130,7 +130,7 @@ MonoBehaviour:
   Path: event:/Fast bullet impact
   guid: 8eb78918b5a6f3449c885212c8de7b56
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -155,7 +155,7 @@ MonoBehaviour:
   lastModified: 637171752970000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6227965754513293660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
   lastModified: 637171752970000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6125584764010375445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,7 +189,7 @@ MonoBehaviour:
   Path: event:/Small caveman sounds
   guid: e47bf0a01f29b141b8d13677f35aeb87
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -212,7 +212,7 @@ MonoBehaviour:
   Path: event:/Footsteps 1
   guid: 80bf554b894d384b824a04e4bed3a33e
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -220,6 +220,42 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 970
+--- !u!114 &-4548539925524685690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Catastrophe FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637173806149918707
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4458644152539421928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Catastrophe FMOD/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637173806149958588
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-4273775603756424343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,7 +271,7 @@ MonoBehaviour:
   Path: event:/Jungle Music
   guid: 91dc3ee23aaab740bf1cf9a35af75418
   Banks:
-  - {fileID: -6227965754513293660}
+  - {fileID: -4548539925524685690}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -258,7 +294,7 @@ MonoBehaviour:
   Path: event:/Melee and Spear hits main char
   guid: 9214ea9f296a16479bc8e1a1577fa2cb
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -281,7 +317,7 @@ MonoBehaviour:
   Path: event:/Alien boss
   guid: 131237d17d262f4281901d38cc05d1e8
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -304,7 +340,7 @@ MonoBehaviour:
   Path: event:/Explosion 1
   guid: 30d1c175fc17574e9f29afab941c0b1a
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -327,7 +363,7 @@ MonoBehaviour:
   Path: event:/Intro Scene Music
   guid: f70175584d9a3948a3af059d4a64bb2b
   Banks:
-  - {fileID: -6227965754513293660}
+  - {fileID: -4548539925524685690}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -350,7 +386,7 @@ MonoBehaviour:
   Path: event:/Main char dies
   guid: f63572578dccba49bbb8f7a5c651d540
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -409,7 +445,7 @@ MonoBehaviour:
   Path: event:/dino attack
   guid: 8873d0c269d7e14cbd435f3a851bcee9
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -450,7 +486,7 @@ MonoBehaviour:
   Path: event:/Little dinos
   guid: 544e7e17dfebbb4992e8a5a135650b81
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -491,7 +527,7 @@ MonoBehaviour:
   Path: event:/Powerup
   guid: beb85e30a7e29e4cb2356b9fb253c6fe
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -513,9 +549,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 7451686600821200671}
-  - {fileID: 5693997741881925705}
-  - {fileID: -6227965754513293660}
-  - {fileID: -6301248754271266272}
+  - {fileID: 1609055379880162166}
+  - {fileID: -4548539925524685690}
+  - {fileID: -4458644152539421928}
   EditorEvents:
   - {fileID: -7867601027104369094}
   - {fileID: 2042912282724787175}
@@ -551,10 +587,10 @@ MonoBehaviour:
   - {fileID: -3236834036239689830}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5693997741881925705}
+  - {fileID: 1609055379880162166}
   StringsBanks:
   - {fileID: 7451686600821200671}
-  stringsBankWriteTime: 637171752970000000
+  stringsBankWriteTime: 637173806149679340
   cacheVersion: 3
 --- !u!114 &740534914466277947
 MonoBehaviour:
@@ -571,7 +607,7 @@ MonoBehaviour:
   Path: event:/Loud Gunshot
   guid: 99338c30325d00429a86df346b66fba4
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -594,7 +630,7 @@ MonoBehaviour:
   Path: event:/Cave Music
   guid: f24dd27b04c41149ae94bda8f6111de9
   Banks:
-  - {fileID: -6227965754513293660}
+  - {fileID: -4548539925524685690}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -617,7 +653,7 @@ MonoBehaviour:
   Path: event:/Running
   guid: 126e99218c4d814489ef7eaaae49e7ec
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -640,7 +676,7 @@ MonoBehaviour:
   Path: event:/Button click
   guid: 7d8f23f9514d1e4591516c3b5fd4bb32
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -663,7 +699,7 @@ MonoBehaviour:
   Path: event:/Phone pick up
   guid: a7b1677708a4974e953fd326647aa51f
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -671,6 +707,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 122
+--- !u!114 &1609055379880162166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Catastrophe FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637173806149679340
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &2042912282724787175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,7 +740,7 @@ MonoBehaviour:
   Path: event:/Menu Music
   guid: 8e42d159abd587438c274fbe9658eee0
   Banks:
-  - {fileID: -6227965754513293660}
+  - {fileID: -4548539925524685690}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -709,7 +763,7 @@ MonoBehaviour:
   Path: event:/Phone Rings
   guid: f54defd4bdf1324ebc6add96c71c2245
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -732,7 +786,7 @@ MonoBehaviour:
   Path: event:/desert Music
   guid: e22054ea1f97ce4c89509e56e23d24cf
   Banks:
-  - {fileID: -6227965754513293660}
+  - {fileID: -4548539925524685690}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -755,7 +809,7 @@ MonoBehaviour:
   Path: event:/Caveman boss
   guid: 84c5e4d0c43e804a8de67cd88a1d31b5
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -796,7 +850,7 @@ MonoBehaviour:
   Path: event:/Spear Throw
   guid: 80a02e09dcf31d4698a2f5547f6f4409
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -819,7 +873,7 @@ MonoBehaviour:
   Path: event:/Cat jarble
   guid: c1582fb1d9063040a9c9ad7f939c76ed
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -842,7 +896,7 @@ MonoBehaviour:
   Path: event:/Computer text
   guid: 64e7c9ef59ce3d45a442101adcf0614b
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -867,7 +921,7 @@ MonoBehaviour:
   lastModified: 637171752970000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &6454337384042208976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -883,7 +937,7 @@ MonoBehaviour:
   Path: event:/Level complete
   guid: 22b127ac65acd741bb01b08dd6a9d54f
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -923,7 +977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Catastrophe FMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637171752970000000
+  lastModified: 637173806149679340
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -944,7 +998,7 @@ MonoBehaviour:
   Path: event:/Boss dino growl
   guid: 9adfacb6a6542c42a63e4c49e51b81b8
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -967,7 +1021,7 @@ MonoBehaviour:
   Path: event:/Small alien sounds
   guid: bbed96b11626a4418e2b729641ec14b2
   Banks:
-  - {fileID: -6301248754271266272}
+  - {fileID: -4458644152539421928}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
