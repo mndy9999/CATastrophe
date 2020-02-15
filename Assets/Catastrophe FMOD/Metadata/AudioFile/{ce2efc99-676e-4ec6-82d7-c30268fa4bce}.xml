@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{ce2efc99-676e-4ec6-82d7-c30268fa4bce}">
+		<property name="assetPath">
+			<value>Toys, Baby Telephone, Fisher Price, Receiver Pick Up SND33485.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.122375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f51859a2-5901-4603-befc-9dff2de62263}</destination>
+		</relationship>
+	</object>
+</objects>

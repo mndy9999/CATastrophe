@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{3263ee54-2e4f-43a3-95a1-52b8b7c73892}">
+		<property name="assetPath">
+			<value>Creature, Dinosaur, Vocalisation, Growl 2 SND14529.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.2418645833333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f51859a2-5901-4603-befc-9dff2de62263}</destination>
+		</relationship>
+	</object>
+</objects>

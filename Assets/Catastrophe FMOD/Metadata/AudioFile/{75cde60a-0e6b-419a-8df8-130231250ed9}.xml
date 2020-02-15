@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{75cde60a-0e6b-419a-8df8-130231250ed9}">
+		<property name="assetPath">
+			<value>Bullet, Impact, Body, Thump 1 SND6360 1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.082270833333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f51859a2-5901-4603-befc-9dff2de62263}</destination>
+		</relationship>
+	</object>
+</objects>

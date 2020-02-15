@@ -1,0 +1,16 @@
+{e6de9ba2-4435-4b2f-b9ab-94a3cb1a333f} bank:/Master
+{7ec3bb76-354e-076d-3fe2-1e5d3ae935a7} bank:/Master.strings
+{becf59de-4adb-4731-9fdc-f4bb575b44c5} bank:/Music
+{2c1bb626-74ef-41f6-a7ec-e8c148b5d984} bank:/SFX
+{c9de4f33-6d93-469e-ba25-52d4db497659} bus:/
+{ea9c7780-e837-496d-ba29-41f600afe970} bus:/Reverb
+{9fea1492-6a29-4716-9bc8-e1a1577fa2cb} event:/Bullet impact
+{b12f58c1-06d9-4030-a9c9-ad7f939c76ed} event:/Cat jarble
+{efc9e764-ce59-453d-a442-101adcf0614b} event:/Computer text
+{6ae64acf-fa7f-4469-92b7-23fd902efc87} event:/Dying
+{1889b78e-a6b5-44f3-9c88-5212c8de7b56} event:/Fast bullet impact
+{4b55bf80-4d89-4b38-824a-04e4bed3a33e} event:/Footsteps 1
+{e2d0e7c6-c966-41ae-be80-d880dcb8712c} event:/Gatling Gun
+{308c3399-5d32-4200-9a86-df346b66fba4} event:/Gunshot
+{d4ef4df5-f1bd-4e32-bc6a-dd96c71c2245} event:/Phone Rings
+{21996e12-4d8c-4481-89ef-7eaaae49e7ec} event:/Running
