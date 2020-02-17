@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowPlayer : MonoBehaviour
+public class UIController : MonoBehaviour
 {
-    public GameObject target;
     // Start is called before the first frame update
     void Start()
     {
@@ -12,9 +11,14 @@ public class FollowPlayer : MonoBehaviour
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void Update()
     {
-        if(target != null)
-            transform.position = target.transform.position + new Vector3(0, 8f, -6.06f);
+        
     }
+
+    public void ShowFullMap()
+    {
+
+    }
+
 }

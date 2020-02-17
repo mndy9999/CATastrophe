@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public NavMeshAgent agent;
     public LayerMask playerLayer;
     public LayerMask Ground;
-    private const float MOVE_SPEED = 2f;
+    private const float MOVE_SPEED = 4f;
     private const float BULLET_SPEED = 50f;
     private const float GRENADE_SPEED = 15f;
     private const float RPG_SPEED = 35f;
@@ -248,7 +248,7 @@ public class PlayerController : MonoBehaviour
         {
             bPct = RPGCooldown / 5f;
         }
-        GameObject.Find("GameManager").GetComponent<GameManager>().UpdateUI(hPct, bPct, _activeWeapon);
+        //GameObject.Find("GameManager").GetComponent<GameManager>().UpdateUI(hPct, bPct, _activeWeapon);
     }
     void GenerateAnimationState()
     {
@@ -299,7 +299,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
-            if(!GameObject.Find("GameManager").GetComponent<GameManager>().Paused)
+            if(GameObject.Find("GameManager") == null || !GameObject.Find("GameManager").GetComponent<GameManager>().Paused)
                 RotateToMouse();
             PlayerInput();
             DissipateHeat();

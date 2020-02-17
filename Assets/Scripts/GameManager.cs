@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     public RectTransform statsContainer;
     public RectTransform pauseMenu;
     public RectTransform deathMenu;
+    public RectTransform fullMap;
     public RectTransform m1;
     public RectTransform m2;
     public RectTransform m3;
@@ -29,7 +30,41 @@ public class GameManager : MonoBehaviour
     public float healthPercent;
     public float bulletPercent;
     public int grenadeAmount;
-    public bool Paused;
+
+
+    private bool mPaused;
+    public bool Paused
+    {
+        get
+        {
+            return mPaused;
+        }
+        set
+        {
+            if(mPaused != value)
+            {
+                mPaused = value;
+                UpdatePauseMenu();
+            }
+        }
+    }
+
+    private bool mShowMap;
+    public bool ShowMap
+    {
+        get
+        {
+            return mShowMap;
+        }
+        set
+        {
+            if (mShowMap != value)
+            {
+                mShowMap = value;
+                UpdatePauseMenu();
+            }
+        }
+    }
     private bool plrDead;
     private GameObject currentBoss;
     FMOD.Studio.EventInstance music;
@@ -56,31 +91,26 @@ public class GameManager : MonoBehaviour
         if (!plrDead)
         {
             if (Input.GetKeyDown(KeyCode.Escape))
-                Paused = !Paused;
-
-            if (Paused)
-            {
-                statsContainer.gameObject.SetActive(false);
-                pauseMenu.gameObject.SetActive(true);
-                Time.timeScale = 0;
-            }
-            else
-            {
-                Resume();
-            }
+                Paused = !Paused;   
+            if (Input.GetKeyDown(KeyCode.Tab))
+                ShowMap = !ShowMap;
         }
         else
         {
             music.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
     }
-    public void Resume()
+
+    private void UpdatePauseMenu()
     {
-        statsContainer.gameObject.SetActive(true);
-        pauseMenu.gameObject.SetActive(false);
-        deathMenu.gameObject.SetActive(false);
-        Time.timeScale = 1;
+        statsContainer.gameObject.SetActive(!Paused && !ShowMap);
+        pauseMenu.gameObject.SetActive(Paused);
+        fullMap.gameObject.SetActive(ShowMap);
+        //deathMenu.gameObject.SetActive(!Paused);
+        Time.timeScale = Paused ? 0 : 1;
+
     }
+
 
     public void RestartLevel()
     {
@@ -92,7 +122,7 @@ public class GameManager : MonoBehaviour
         if (plrDead == true)
             plrDead = false;
         Paused = false;
-        Resume();
+        UpdatePauseMenu();
         if (activeEnv != null)
             Destroy(activeEnv);
         activeEnv = Instantiate(EnvironmentPrefab);
